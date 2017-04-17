@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Button button = new Button(this);
-        button.setText("Lancia SubActivity");
+        button.setText(R.string.lancia);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

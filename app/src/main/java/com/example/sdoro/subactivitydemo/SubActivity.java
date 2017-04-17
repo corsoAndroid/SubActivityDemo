@@ -14,7 +14,7 @@ public class SubActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Button button = new Button(this);
-        button.setText("Termina SubActivity");
+        button.setText(R.string.termina);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
